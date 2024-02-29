@@ -6,7 +6,7 @@ io_method: mmap                     # I/O method
                                     # - read - for devices supporting virtual filesystem or block I/O
                                     # - mmap - for devices with direct libusb memory mapping
                                     # - userptr - for userspace devices supporting userspace pointer exchange
-pixel_format: uyvy                  # Pixel format for Video4linux device (also selects decoder mode)  연구실 카메라는 uyvy 해야됨 아니면 초록색 뜸
+pixel_format: uyvy                  # Pixel format for Video4linux device (also selects decoder mode)
                                         # https://wiki.videolan.org/YUV#YUV_4:2:0_.28I420.2FJ420.2FYV12.29 http://wiki.ros.org/usb_cam/Troubleshooting
                                         # - yuyv - YUV420
                                         # - yuv - synonym for yuyv
